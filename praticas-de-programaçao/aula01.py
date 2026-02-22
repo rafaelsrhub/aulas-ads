@@ -22,3 +22,6 @@ n3=float(input('Qual a terceira nota do aluno?'))
 media= calcular_media(n1,n2,n3)
 resultado= verificar_aprovação(media)
 exibir_resultado(nome,media,resultado)
+
+
+#web
