@@ -4,4 +4,4 @@ def rejuste_salarial(salario,porcentagem):
 
 print('Qual o nome do funcionário?')
 nome:str(input('Nome:'))
-print('Qual o sálario atual do funcionário {nome}')
+print(f'Qual o sálario atual do funcionário {nome}')
