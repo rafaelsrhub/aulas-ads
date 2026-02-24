@@ -9,7 +9,7 @@ def separar_pecas_pt(mm_min,mm_max):
         print('Nenhuma peça encontrada entre essas milimetragens')
     else:
         for i in pecas_por_mm:
-            print(f'Peçã de {i}mm Disponível')
+            print(f'Peça de {i}mm Disponível')
 def verificar_entrada(entrada):
     try:
         return float(entrada.replace(',','.'))
