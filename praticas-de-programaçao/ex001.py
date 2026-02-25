@@ -1,6 +1,6 @@
 def reajuste_salarial(salario,porcentagem):
-    novo_salario=salario+(salario*porcentagem/100)
-    return novo_salario
+    reajuste=(salario*porcentagem/100)
+    return reajuste+salario
 print('Qual o salário atual do colaborador?')
 salario=float(input('Salário atual: '))
 print('Qual a porcentagem de aumento')
