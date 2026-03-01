@@ -8,7 +8,8 @@ def separar_pecas_pt(mm_min,mm_max):
     return pecas_intervalo
 def verificar_entrada(entrada):
     try:
-        return float(entrada.replace(',','.'))
+        return float(entrada.replace(',','.')
+                     )
     except ValueError:
         return 'quit'
 
